@@ -5,6 +5,7 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
+    --primary-color: #ee4d2d;
 }
 
 * {
@@ -36,6 +37,7 @@ html {
 /* -------------End base------------- */
 
 /* Animation */
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -43,5 +45,16 @@ html {
 
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes headerNotifyGrowth {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
     }
 }
